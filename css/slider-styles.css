@@ -1,0 +1,121 @@
+.slider-container {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slider-container.blog {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog .siema-calculator-container {
+    max-height: 330px;
+    overflow: hidden;
+}
+
+.slider-image {
+    text-align: center;
+    margin: 0 7.5px;
+    height: 100%;
+}
+
+.slider-job>div {
+    height: 100%;
+}
+
+.slider-job>div>div {
+    height: 100%;
+}
+
+img.slider-item-image {
+    object-fit: cover;
+}
+
+.siema-calculator-container.job {
+    margin-bottom: 20px;
+    position: relative;
+    max-width: 1600px;
+    max-height: 700px;
+    min-height: 600px;
+    display: flex;
+    width: 100%;
+}
+
+.siema__prev,
+.siema__next {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    align-self: center;
+    height: 100%;
+    width: 50px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pagination button {
+    border-radius: 0;
+}
+
+.pagination__item {
+    width: 12px;
+    height: 12px;
+    display: block;
+    margin: 0 6px;
+    padding: 0;
+    min-height: auto;
+    background-color: #cbcbcb;
+}
+
+.pagination__item.pagination__item--active {
+    background-color: #007d62;
+}
+
+.page-number {
+    width: fit-content;
+    margin: 0 auto;
+    user-select: none;
+}
+
+.control-slider-bar {
+    display: flex;
+    justify-content: end;
+}
+
+.slider-blog .slider-image {
+    position: relative;
+    max-width: 570px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slider-blog h3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.blog img.slider-item-image {
+    border-radius: 16px;
+}
+
+@media (max-width:800px) {
+
+    .job .siema__prev,
+    .job .siema__next {
+        display: none;
+    }
+
+    img.slider-item-image {
+        border-radius: 16px;
+    }
+
+    .slider-blog .slider-image {
+        padding: 0;
+    }
+}
