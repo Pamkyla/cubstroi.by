@@ -30,6 +30,8 @@
 
 img.slider-item-image {
     object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .siema-calculator-container.job {
