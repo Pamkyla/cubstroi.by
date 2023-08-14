@@ -33,6 +33,16 @@
         flex-direction: column;
         margin-right: 30px;
     }
+
+    .triple-table .width--30 {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .row-table .width-half {
+        width: 100%;
+    }
 }
 
 @media (max-width:500px) {
