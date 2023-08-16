@@ -37,6 +37,16 @@
     .triple-table .width--30 {
         width: 100%;
     }
+
+    .numbers-table .width-half {
+        width: 100%;
+    }
+    .wrap-700 .width-half {
+        width: 100%;
+    }
+    .chocolate .width--30 {
+        width: 50%;
+    }
 }
 
 @media (max-width:600px) {
@@ -68,12 +78,15 @@
     .copyright-block .d--flex {
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
     }
 
     .img--num-block {
         flex-direction: column;
     }
-
+    .chocolate .width--30 {
+        width: 100%;
+    }
 }
 
 @media (max-width:450px) {

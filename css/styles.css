@@ -99,6 +99,10 @@ strong {
     font-weight: 300;
 }
 
+.numbers.light {
+    font-weight: 100;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -227,12 +231,20 @@ section {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .center {
     text-align: center;
 }
 
 .self-center {
     align-self: center;
+}
+
+.items-center {
+    align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -275,12 +287,20 @@ section {
     width: 50%;
 }
 
+.width--90 {
+    width: 90%;
+}
+
 .width--70 {
     width: 70%;
 }
 
 .width--65 {
     width: 65%;
+}
+
+.width--60 {
+    width: 60%;
 }
 
 .width--30 {
@@ -302,6 +322,10 @@ section {
 
     .table .width--30 {
         width: 50%;
+    }
+
+    .width--90 {
+        width: 100%;
     }
 
     .width--70 {
@@ -343,6 +367,10 @@ section {
     max-width: 790px;
 }
 
+.max-w-620 {
+    max-width: 620px;
+}
+
 .max-w-420 {
     max-width: 420px;
 }
@@ -364,6 +392,7 @@ section {
 .height-360 {
     height: clamp(320px, 27vw, 360px);
 }
+
 /* Button */
 .main-btn {
     display: flex;
@@ -389,8 +418,15 @@ section {
 }
 
 /* Border */
+.border-1 {
+    border: 1px solid;
+}
 .border--b-1 {
     border-bottom: 1px solid;
+}
+
+.border-color-0 {
+    border-color: #000;
 }
 
 .border-color-1 {
@@ -402,12 +438,17 @@ section {
 .gap-60 {
     gap: 0 clamp(30px, 4vw, 60px)
 }
+
 .gap-50 {
     gap: 0 clamp(20px, 4vw, 50px)
 }
 
 .gap-40 {
     gap: 0 clamp(30px, 4vw, 40px)
+}
+
+.gap-20 {
+    gap: 20px;
 }
 
 /* Margin */
@@ -429,6 +470,26 @@ section {
 
 .ml-auto {
     margin-left: auto;
+}
+
+.m-80 {
+    margin: 80px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mr-80 {
+    margin-right: 80px;
+}
+
+.ml-80 {
+    margin-left: 80px;
 }
 
 .m-60 {
@@ -607,6 +668,26 @@ section {
 
 .pl-30 {
     padding-left: 30px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
 }
 
 .p-15 {
